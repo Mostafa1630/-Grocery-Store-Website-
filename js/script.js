@@ -12,21 +12,21 @@ iconSearch.onclick = () => {
     formSearch.classList.toggle("active");
     shoppingCart.classList.remove("active");
     loginFrom.classList.remove("active");
-    menuBtn.classList.remove("active");
+    navbar.classList.remove("active");
 }
 
 cartBtn.onclick = () => {
     shoppingCart.classList.toggle("active");
     formSearch.classList.remove("active");
     loginFrom.classList.remove("active");
-    menuBtn.classList.remove("active");
+    navbar.classList.remove("active");
 }
 
 loginBtn.onclick = () => {
     loginFrom.classList.toggle("active");
     formSearch.classList.remove("active");
     shoppingCart.classList.remove("active");
-    menuBtn.classList.remove("active");
+    navbar.classList.remove("active");
 }
 
 menuBtn.onclick = () => {
